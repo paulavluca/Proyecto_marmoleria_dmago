@@ -32,7 +32,7 @@ body{
 .navbar1_menu li a{
   color: #000000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 110%;
   margin-left: 40px;
   font-weight: normal;
   transition: all 0.3s ease;
@@ -103,6 +103,10 @@ body{
 /* WP BUTTON */
 
 /* GO TOP BUTTON */
+.container_gotop a:hover{
+  color: #FFF;
+}
+
 .to-top{
   background: #ddbc59;
   position: fixed;
